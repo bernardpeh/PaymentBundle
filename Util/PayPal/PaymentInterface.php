@@ -109,7 +109,7 @@ abstract class PaymentInterface extends ContainerAware {
 	 * Set the total amount of the order, this is the price the user is going to pay
 	 * @param float $total Total amount of the order
 	 */
-	public function setAmout($total) {
+	public function setAmount($total) {
 		$this->amount = new Amount();
 		$this->amount->setCurrency($this->getCurrency())
 			->setTotal($total);

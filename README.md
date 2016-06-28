@@ -133,7 +133,7 @@ and then redirect the user to the generated approval url:
 ...
 /** @var PayPalWPS $wpsService */
 $wpsService = $this->get('lpweb_payment.paypal.wps');
-$wpsService->setAmout(10.0);
+$wpsService->setAmount(10.0);
 $wpsService->setDescription('Transaction Description');
 $wpsService->setInvoiceNumber(1);
 // set the redirect url to which the user has to be redirected after successfull completion
