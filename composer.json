@@ -1,5 +1,5 @@
 {
-  "name": "lpwebit/payment-bundle",
+  "name": "bernardpeh/paypal-bundle",
   "type": "symfony-bundle",
   "description": "A Symfony2 Bundle for making payment",
   "keywords": ["symfony2", "payment", "paypal"],
@@ -35,9 +35,8 @@
     "phpunit/phpunit": "4.8.*"
   },
   "autoload": {
-    "psr-0": {
-      "LpWeb\\PaymentBundle": ""
+    "psr-4": {
+      "Bernardpeh\\paypal-bundle": ""
     }
-  },
-  "target-dir": "LpWeb/PaymentBundle"
+  }
 }
