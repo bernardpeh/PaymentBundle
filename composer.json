@@ -38,6 +38,5 @@
     "psr-4": {
       "LpWeb\\PaymentBundle\\": ""
     }
-  },
-  "target-dir": "LpWeb/PaymentBundle"
+  }
 }
