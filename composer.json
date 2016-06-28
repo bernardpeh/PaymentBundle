@@ -36,7 +36,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Bernardpeh\\paypal-bundle\\": ""
+      "LpWeb\\PaymentBundle\\": ""
     }
-  }
+  },
+  "target-dir": "LpWeb/PaymentBundle"
 }
