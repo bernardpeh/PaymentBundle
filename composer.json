@@ -36,7 +36,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Bernardpeh\\paypal-bundle": ""
+      "Bernardpeh\\paypal-bundle\": ""
     }
   }
 }
